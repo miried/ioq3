@@ -298,7 +298,7 @@ ifneq ($(call bin_path, $(PKG_CONFIG)),)
   OPENAL_LIBS ?= $(shell $(PKG_CONFIG) --silence-errors --libs openal)
   SDL_CFLAGS ?= $(shell $(PKG_CONFIG) --silence-errors --cflags sdl2|sed 's/-Dmain=SDL_main//')
   SDL_LIBS ?= $(shell $(PKG_CONFIG) --silence-errors --libs sdl2)
-  MAD_LIBS ?= $(shell $(PKG_CONFIG) --silence-errors --libs libmad)
+  MAD_LIBS ?= $(shell $(PKG_CONFIG) --silence-errors --libs mad)
 else
   # assume they're in the system default paths (no -I or -L needed)
   CURL_LIBS ?= -lcurl
