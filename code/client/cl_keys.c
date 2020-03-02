@@ -68,6 +68,8 @@ keyname_t keynames[] =
 	{"ALT", K_ALT},
 	{"CTRL", K_CTRL},
 	{"SHIFT", K_SHIFT},
+	{"LCTRL", K_CTRL},
+	{"LSHIFT", K_SHIFT},
 
 	{"COMMAND", K_COMMAND},
 
