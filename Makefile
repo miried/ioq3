@@ -1406,11 +1406,11 @@ makedirs:
 	@$(MKDIR) $(B)/renderergl2
 	@$(MKDIR) $(B)/renderergl2/glsl
 	@$(MKDIR) $(B)/ded
-	@$(MKDIR) $(B)/$(BASEGAME)/cgame
-	@$(MKDIR) $(B)/$(BASEGAME)/game
-	@$(MKDIR) $(B)/$(BASEGAME)/ui
-	@$(MKDIR) $(B)/$(BASEGAME)/qcommon
-	@$(MKDIR) $(B)/$(BASEGAME)/vm
+#	@$(MKDIR) $(B)/$(BASEGAME)/cgame
+#	@$(MKDIR) $(B)/$(BASEGAME)/game
+#	@$(MKDIR) $(B)/$(BASEGAME)/ui
+#	@$(MKDIR) $(B)/$(BASEGAME)/qcommon
+#	@$(MKDIR) $(B)/$(BASEGAME)/vm
 	@$(MKDIR) $(B)/tools/asm
 	@$(MKDIR) $(B)/tools/etc
 	@$(MKDIR) $(B)/tools/rcc
